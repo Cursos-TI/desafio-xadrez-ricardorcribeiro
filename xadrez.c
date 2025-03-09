@@ -7,7 +7,7 @@
 int main()
 {
 
-    int contadorRainha, contadorTorre, contadorBispo;
+    int contadorRainha, contadorTorre, contadorBispo, contadorCavaloEsquerda, contadorCavaloBaixo;
 
     // utilizando for para fazendo o contador da rainha ir de 1 a 8 para imprimir as direções 8 vezes
     for (contadorRainha = 1; contadorRainha <= 8; contadorRainha++)
@@ -38,6 +38,23 @@ int main()
         printf("Direita %d\n", contadorTorre);
         contadorTorre++;
     } while (contadorTorre <= 5);
+
+    // espaçamento para melhor visualização
+    printf("--------------#--------------\n");
+
+    for (contadorCavaloEsquerda = 1; contadorCavaloEsquerda <= 1; contadorCavaloEsquerda++)
+    {
+        // inicializando o contador do cavalo Baixo
+        contadorCavaloBaixo = 1;
+
+        while (contadorCavaloBaixo <= 2)
+        {
+            printf("Baixo, ");
+            contadorCavaloBaixo++;
+        }
+
+        printf("Esquerda\n");
+    }
 
     return 0;
 }
