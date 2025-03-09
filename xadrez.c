@@ -6,7 +6,7 @@
 
 int main()
 {
-
+    //criando variáveis para os contadores de cada peça
     int contadorRainha, contadorTorre, contadorBispo, contadorCavaloEsquerda, contadorCavaloBaixo;
 
     // utilizando for para fazendo o contador da rainha ir de 1 a 8 para imprimir as direções 8 vezes
